@@ -69,3 +69,4 @@ button_list_mimimi.addEventListener('click', () => {
 
   // console.log("probando el click")
 })
+
