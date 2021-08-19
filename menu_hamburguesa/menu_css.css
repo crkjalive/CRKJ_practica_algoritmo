@@ -1,0 +1,71 @@
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;font-family:'arial';}
+a{text-decoration:none;}
+li{list-style:none;}
+ul{display:flex;padding:1em 0;}
+
+.header {
+ display:grid;
+ grid-template-columns: repeat(6, 1fr);
+}
+.h1{
+ display:inline;
+ grid-column:1/7;
+ grid-row:1/2;
+ align-self:center;
+ padding: .5em 0 .5em .5em;
+ background-color:gold;
+}
+.nav{
+ display: flex;
+ background-color: dodgerblue;
+ grid-column:1/6;
+ grid-row:2/3;
+ align-items: center;
+}
+.li{
+ padding:1em;
+ display:inline;
+ color: white;
+}
+.li:hover{
+ background-color:dodgerblue;
+ color:white;
+}
+.menu_img{
+ border-radius:50%;
+ grid-column: 4/5;
+ align-self:center;
+ justify-self:flex-end;
+ cursor:pointer;
+ padding: 1em .5em;
+
+}
+.mostrar_menu{
+ display:grid;
+ grid-column:6/7;
+ background-color: dodgerblue;
+ text-align:center;
+ padding:.5em;
+}
+.display_none{
+ display:none;
+}
+.display_show{
+ display:block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.css[type="submit"]{background:dodgerblue;color:gold;width:100vh;height:100vw;text-align:right left;font-size:16px;display:block flex grid;position:relative absolute fixed;margin:auto;cursor:pointer;vertical-align: top super bottom sub middle baseline;border-radius:50%;grid-template-columns:repeat(1, 1fr);grid-template-rows: minmax(2em, auto);grid-gap:.5em 1em;grid-column-start:1;grid-column-end:1;grid-row-start:1;grid-row-end:1;align-content:space-evenly;align-self:end;align-items:center;justify-content: space-around space-between;justify-self: stretch;justify-items: start;justify-content:end;justify-self:start;order:1;flex-direction:row-reverse;flex-wrap:wrap row nowrap;align-items:flex-start flex-end;}
+
