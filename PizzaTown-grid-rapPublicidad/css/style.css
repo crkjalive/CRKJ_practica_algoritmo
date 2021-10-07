@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: arial;
+}
+
+body{
+	display: grid;
+	grid-template-columns: 1fr;
+	background-color: #eeeeee;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+}
+
+.pizzatown__banner{
+	background-color: white;
+	display: grid;
+	width: 95%;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows:  100px repeat(2, 1fr) auto;
+	border: 1px solid #dddddd;
+	border-radius: 4px;
+	align-self: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.pizzatown__barra{
+	display: grid;
+	height: 100%;
+	width: 30%;
+	background-color: rgba(255, 255, 255, .5);
+	grid-column: 1/2;
+	grid-row: 1/5;
+	text-align: center;
+	justify-content: center;
+}
+
+.pizzatown__image{
+	grid-column: 1/2;
+	grid-row: 1/2;
+}
+
+.pizzatown__barra--img{
+	justify-self: center;
+	margin-top: 1em;
+	grid-row: 1/2;
+
+}
+
+.pizzatown__based{
+	font-size: 12px;
+	align-self: flex-end;
+	margin-bottom: 2em;
+	justify-content: center;
+}
+
+.pizzatown__image{
+	grid-column: 1/2;
+	grid-row: 1/6;
+	width: 100%;
+
+}
+
+.pizzatown__image--img{
+	width: 100%;
+}
+
+.pizzatown__nav{
+	padding: 0;
+	grid-column: 2/3;
+	grid-row: 1/2;
+	align-self: flex-end;
+}
+
+.pizzatown__nav--ul{
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 1em;
+}
+
+.pizzatown__nav--a{
+	padding: 1em;
+	text-decoration: none;
+	list-style: none;
+	color: orange;
+	font-weight: 400;
+}
+
+.pizzatown__text{
+	grid-column: 2/3;
+	grid-row: 2/4;
+	align-self: center;
+}
+
+.pizzatown__title{
+	grid-column: 2/3;
+	grid-row: 2/3;
+	text-align: center;
+	align-self: center;
+	text-transform: uppercase;
+}
+
+.pizzatown__title div:nth-child(1){
+	font-size: 4em;
+}
+
+.pizzatown__title div:nth-child(2){
+	font-size: 4em;
+	margin-top: -.3em;
+}
+
+.pizzatown__parrafo{
+	align-self: center;
+	grid-column: 2/3;
+	font-size: .7em;
+	width: 35%;
+	margin: 0 auto 0;
+}
+.pizzatown__orderNow{
+	width: 100%;
+	grid-column: 2/3;
+	text-align: center;
+	margin-top: 1em;
+}
+.pizzatown__orderNow button{
+	padding: .5em 2em;
+	border: none;
+	background-color: orange;
+	border-radius: 20px;
+	color: white;
+	font-size: 1em;
+}
+.pizzatown__redesSociales{
+	width: 100%;
+	display: flex;
+	grid-column: 2/3;
+	justify-content: flex-end;
+	padding-right: 1em;
+	align-items: center;
+}
+.pizzatown__redesSociales--a{
+	padding: 1em;
+	color: black;
+	list-style: none;
+	text-decoration: none;
+}
